@@ -44,7 +44,7 @@ Performs conversion between YOLO, PASCAL VOC and COCO annotation format.
   - YOLO to Pascal (yolo2pascal.py)
     - ```yolo2pascal.py -p images -l obj.names -o pascal```
     - Running the above line in cmd should generate a directory named `pascal` that contains `.xml` files in PASCAL VOC format.
-- Use `"scriptname.py" -h` to get help on each of the required and optional arguments and inputs.
+- Use `"scriptname".py -h` to get help on each of the required and optional arguments and inputs.
 - Add python3 infront of line if not using anaconda prompt.
 - Folder containing images from COCO val2017, annotated in YOLO format is included for testing. 
 ### Credits:
