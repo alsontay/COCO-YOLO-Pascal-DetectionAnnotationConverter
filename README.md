@@ -12,13 +12,13 @@ Performs conversion between YOLO, PASCAL VOC and COCO annotation format.
 - Each conversion script will require different arguments as inputs (refer to example) and will output the converted annotation to the correct format.
 - Do note that the conversions are only accurate to .2dp, hence mulitple conversions may not result in same outputs.
 ### Requirements:
-- python
+- python3 (anaconda recommended)
 - argparse
 - xml-python
 - opencv-python
 - pycocotools
 
- These packages by using pip in command line, assuming python is already installed:
+ These packages by using pip in command line (anaconda) prompt, assuming python anaconda is already installed:
   - `pip install argparse`
   - `pip install xml-python`
   - `pip install opencv-python`
@@ -45,5 +45,6 @@ Performs conversion between YOLO, PASCAL VOC and COCO annotation format.
     - ```yolo2pascal.py -p images -l obj.names -o pascal```
     - Running the above line in cmd should generate a directory named `pascal` that contains `.xml` files in PASCAL VOC format.
 - Use `"scriptname.py" -h` to get help on each of the required and optional arguments and inputs.
+- Add python3 infront of line if not using anaconda prompt.
 ### Credits:
  - Scripts involving Pascal is adapted from [hai-h-nguyen/Yolo2Pascal-annotation-conversion](https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion)
