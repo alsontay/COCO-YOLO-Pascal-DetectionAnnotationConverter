@@ -1,6 +1,6 @@
 ### Image Detection Annotation Converter
 
-Performs conversion between YOLO, PASCAL VOC and COCO annotation format.
+Performs conversion between COCO, YOLO, and PASCAL VOC annotation format.
 
 ### Format and Usage:
 - Images must be in .jpg/.png format and reside within an independent folder.
